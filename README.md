@@ -1,24 +1,30 @@
-# README
+# Le Restaurant
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Here is the link to go visit the app https://le-restaurant.herokuapp.com/
 
-Things you may want to cover:
+Things that are important in this app
 
-* Ruby version
+* Ruby 2.5.1
 
-* System dependencies
+* Build in Rails
 
-* Configuration
+* No need for Database creation (Really?)
 
-* Database creation
+* No need for Database initialization (Why would you do it?)
 
-* Database initialization
+* No need to run the test suite (Because there is none)
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### Deployment instructions
 
-* Deployment instructions
+``sq
+git clone <"link">
+bundle install
+rails s
+``
 
-* ...
+And then throw a nice localhost:3000 in your brwoser and you're ready to go.
+
+and by the way, I (CCana) made this and I copied the text from this nice restaurant that you should visit if you live in Paris: https://www.ajidulce.fr/ (thank me later).
+
+You're welcome!
