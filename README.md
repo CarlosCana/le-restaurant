@@ -17,14 +17,21 @@ Things that are important in this app
 
 ### Deployment instructions
 
-``sq
-git clone <"link">
-bundle install
-rails s
-``
+```sh
+$ git clone <"link">
+$ bundle install
+$ rails s
+```
 
+Verify the deployment by navigating to your server address in your preferred browser.
+
+```sh
+localhost:3000
+```
 And then throw a nice localhost:3000 in your brwoser and you're ready to go.
 
-and by the way, I (CCana) made this and I copied the text from this nice restaurant that you should visit if you live in Paris: https://www.ajidulce.fr/ (thank me later).
+----
+
+and by the way, I **(CCana)** made this and I copied the text from this nice restaurant that you should visit if you live in Paris: https://www.ajidulce.fr/ (thank me later).	
 
 You're welcome!
