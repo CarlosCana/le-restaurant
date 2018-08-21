@@ -1,42 +1,6 @@
 $(document).ready(function($){
 
 
-
-
-var interval;
-  interval = setInterval(function () {
-    moveRight();
-  }, 3000);
-
-  $('._slider').mouseover(function(){
-    clearInterval(interval);
-  });
-  
-  $('._slider').mouseleave(function(){
-    interval = setInterval(function () {
-      moveRight();
-      }, 3000);
-  });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	var imageBox = $('.slider ul'),
 		imageWidth = $('.slider ul li').first().children('img').width(),
 		imageQuantity = $('.slider ul').children('li').length,
@@ -76,22 +40,8 @@ var interval;
 		
    		});
 	}
+
+
 });
 
 
-
-var interval;
-  interval = setInterval(function () {
-    moveRight();
-  }, 3000);
-
-  $('._slider').mouseover(function(){
-    clearInterval(interval);
-  });
-  
-  $('._slider').mouseleave(function(){
-    interval = setInterval(function () {
-      moveRight();
-      }, 3000);
-  });
-  
