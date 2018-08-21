@@ -1,0 +1,42 @@
+body {
+	font-family: 'Helvetica Nueu';
+	background-color:  #efefef;
+	font-size: 150%;
+}
+
+.main-class {
+	width: 600px;
+	margin: auto;
+	background-color: white;
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+.header {
+	padding: 15px;
+	font-size: 110%;
+	background-color: #47ad54;
+	color: #fff;
+}
+
+/*.image-model {
+	width: 800px;
+	}*/
+
+.slider {
+	width: 600px;
+	overflow: hidden;
+}
+
+.slider ul {
+  list-style: none;
+  width: 600px; 
+  position: relative; 
+  left: 0px; 
+  padding: 0; 
+  margin: 0;
+}
+
+.slider ul li {
+  float: left;
+}
